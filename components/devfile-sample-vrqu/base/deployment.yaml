@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-vrqu
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0015-tenant/ci10t-777-0015-app/devfile-sample-vrqu@sha256:d82757d4a13e0cd72d1d96975517c71ac2639c3928deef8df773e6eafee393cb
         name: my-nodejs
         ports:
         - containerPort: 3001
